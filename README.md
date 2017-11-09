@@ -3,6 +3,8 @@
 Snoopy Logger is a security tool developed in C language capable of generating logs of all commands executed by users of the
 system, or just the commands executed by root superuser.
 
+Master: [![Build Status](https://travis-ci.org/revolutionsystem/puppet-snoopy.svg?branch=master)](https://travis-ci.org/revolutionsystem/puppet-snoopy)
+
 ## Table of Contents
 
 1. [Description](#description)
