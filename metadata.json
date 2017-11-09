@@ -1,6 +1,6 @@
 {
   "name": "revolutionsystem-snoopy",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "author": "Daniel Leite",
   "summary": "Snoopy is a tiny library that logs all executed commands (+ arguments) on your system.",
   "license": "Apache-2.0",
@@ -50,8 +50,5 @@
       "name": "puppet",
       "version_requirement": ">= 4.0.0 < 6.0.0"
     }
-  ],
-  "pdk-version": "1.2.1",
-  "template-url": "file://C:/PROGRA~1/PUPPET~1/DevelopmentKit/share/cache/pdk-module-template.git",
-  "template-ref": "heads/master-0-gd2dae81"
+  ]
 }
