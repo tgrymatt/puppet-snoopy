@@ -34,9 +34,9 @@ This Puppet Module will install and configure snoopy logger.
 
 
 ## Usage
-
-class {'snoopy':}
-
+``` puppet
+class { 'snoopy': }
+```
 ## Limitations
 
 This is where you list OS compatibility, version compatibility, etc. If there are Known Issues, you might want to include them under their own heading here.
