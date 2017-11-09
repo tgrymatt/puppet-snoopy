@@ -48,4 +48,4 @@ For any development, you my reach out to the GitHub repo: [puppet-snoopy.git](ht
 
 This project is a fork of [opstree-snoopy.git](https://github.com/OpsTree/opstree-snoopy.git)
 
-For any contribution, you may mail us at malito:contato@revolutionsystem.com.br
+For any contribution, you may mail us at [contato@revolutionsystem.com.br](malito:contato@revolutionsystem.com.br)
