@@ -1,6 +1,6 @@
 {
   "name": "revolutionsystem-snoopy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Daniel Leite",
   "summary": "Snoopy is a tiny library that logs all executed commands (+ arguments) on your system.",
   "license": "Apache-2.0",
