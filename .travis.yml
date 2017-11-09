@@ -20,7 +20,7 @@ rvm:
 env:
   #
   - PUPPET_GEM_VERSION="~> 4.0" CHECK=spec
-  
+
 #
 matrix:
   fast_finish: true
@@ -39,7 +39,7 @@ notifications:
   email: false
 deploy:
   provider: puppetforge
-  user: puppet
+  user: revolutionsystem
   password:
     secure: ""
   on:
