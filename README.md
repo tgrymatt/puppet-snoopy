@@ -42,7 +42,7 @@ This is where you list OS compatibility, version compatibility, etc. If there ar
 
 ## Development
 
-For any development, you my reach out to the GitHub repo: [puppet-snoopy.git][](https://github.com/revolutionsystem/puppet-snoopy.git)
+For any development, you my reach out to the GitHub repo: [puppet-snoopy.git](https://github.com/revolutionsystem/puppet-snoopy.git)
 
 ## Release Notes/Contributors
 
