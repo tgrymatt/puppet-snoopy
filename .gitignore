@@ -20,4 +20,5 @@
 /tmp/
 /vendor/
 /.vscode/
+/pkg/
 
