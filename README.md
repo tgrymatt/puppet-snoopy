@@ -24,10 +24,10 @@ This Puppet Module will install and configure snoopy logger.
 
 **What the snoopy module affects:**
 
-* Create config file ```/etc/snoopy.ini```
+* Create config file `/etc/snoopy.ini`
 * Create logging file based operation system:
-  * Redhat/CentOS: ```/var/log/secure```
-  * Debian/Ubuntu: ```/var/log/auth.log```
+  * Redhat/CentOS: `/var/log/secure`
+  * Debian/Ubuntu: `/var/log/auth.log`
 
 > **Note**: You must **RESTART** the operating system to apply the snoopy logger settings.
 
