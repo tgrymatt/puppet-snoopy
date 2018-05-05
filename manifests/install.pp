@@ -9,12 +9,14 @@
 class snoopy::install {
   # Download snoopy installation script
   file { '/tmp/snoopy-install.sh':
-    ensure => 'present',
-    mode   => '0755',
-    source => 'https://github.com/a2o/snoopy/raw/install/doc/install/bin/snoopy-install.sh'
+    ensure  => 'present',
+    mode    => '0755',
+    source  => 'https://github.com/a2o/snoopy/raw/install/doc/install/bin/snoopy-install.sh',
+    replace => 'no'
   }->
   # Install Snoopy stable version
   exec { '/tmp/snoopy-install.sh stable':
     cwd     => '/tmp',
+    unless  => '/bin/grep /usr/local/lib/libsnoopy.so /etc/ld.so.preload'
   }
 }
