@@ -17,7 +17,8 @@ class snoopy::configure (
   $filename          = undef,
   $logfile           = undef,
   $logpath           = undef,
-  $datetime          = undef
+  $datetime          = undef,
+  $filter_chain      = undef,
 ) {
   file { 'Create snoopy configuration file':
     ensure  => 'present',

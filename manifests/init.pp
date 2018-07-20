@@ -17,7 +17,8 @@ class snoopy (
   $file_name         = $::snoopy::params::filename,
   $log_file          = $::snoopy::params::logfile,
   $log_path          = $::snoopy::params::logpath,
-  $date_time         = $::snoopy::params::datetime
+  $date_time         = $::snoopy::params::datetime,
+  $filter_chain      = $::snoopy::params::filter_chain,
 ) inherits snoopy::params {
   class { 'snoopy::install': }
   class { 'snoopy::configure':
@@ -31,6 +32,7 @@ class snoopy (
     filename         => $file_name,
     logfile          => $log_file,
     logpath          => $log_path,
-    datetime         => $date_time
+    datetime         => $date_time,
+    filter_chain     => $filter_chain,
   }
 }

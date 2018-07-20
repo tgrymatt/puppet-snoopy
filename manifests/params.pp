@@ -18,4 +18,5 @@ class snoopy::params {
   $logfile           = false
   $datetime          = false
   $logpath           = '/var/log/snoopy.log'
+  $filter_chain      = ''
 }
