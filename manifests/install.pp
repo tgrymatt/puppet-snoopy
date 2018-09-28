@@ -8,7 +8,7 @@
 #   include snoopy::install
 class snoopy::install {
   # Download snoopy installation script
-  ensure_packages(['build-essential']) ->
+  ensure_packages(['build-essential'])
   file { '/tmp/snoopy-install.sh':
     ensure  => 'present',
     mode    => '0755',
